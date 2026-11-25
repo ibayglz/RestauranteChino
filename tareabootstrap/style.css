@@ -1,0 +1,137 @@
+
+:root {
+    --rojo: #8b1a1a;
+    --rojo-oscuro: #6b1212;
+    --dorado: #c9a227;
+    --crema: #fbf6ec;
+    --texto: #2b2220;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--crema);
+    color: var(--texto);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--rojo);
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: var(--rojo);
+    border-bottom: 4px solid var(--dorado);
+}
+
+.marca {
+    color: var(--dorado);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.cabecera .nav-link {
+    color: #fff;
+}
+
+.cabecera .nav-link:hover {
+    color: var(--dorado);
+}
+
+.navbar-toggler {
+    background-color: var(--crema);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--rojo-oscuro);
+    color: #fff;
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    color: var(--dorado);
+}
+
+.hero .lead {
+    max-width: 650px;
+    margin-bottom: 2rem;
+}
+
+/* Botón */
+.btn-rojo {
+    background-color: var(--dorado);
+    color: var(--texto);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-rojo:hover {
+    background-color: var(--rojo);
+    color: #fff;
+}
+
+/* Secciones con fondo distinto */
+.seccion-clara {
+    background-color: #f1e7d3;
+}
+
+/* Tarjetas de la carta */
+.card {
+    border: 1px solid var(--dorado);
+    background-color: #fff;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    background-color: #d9cdb5;
+}
+
+.card-footer {
+    background-color: var(--crema);
+    border-top: 1px solid var(--dorado);
+}
+
+/* Carrusel */
+#carrusel {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.foto-carrusel {
+    height: 300px;
+    object-fit: cover;
+    background-color: #d9cdb5;
+}
+
+.carousel-caption {
+    background-color: rgba(107, 18, 18, 0.75);
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h3 {
+    color: var(--dorado);
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: var(--rojo);
+    color: #fff;
+    border-top: 4px solid var(--dorado);
+}
+
+.pie-pagina strong {
+    color: var(--dorado);
+}
+
+.pie-pagina .nav-link {
+    color: #fff;
+}
+
+.pie-pagina .nav-link:hover {
+    color: var(--dorado);
+}
